@@ -81,6 +81,17 @@ a
 	border-top: 2px solid #0065FC;
 }
 
+nav li:nth-child(1) a
+{
+	color: #0065FC;
+}
+
+nav li:nth-child(3) a
+{
+	font-weight: bold;
+	color: #0065FC;
+}
+
 /*---- bloc_recherche ----*/
 
 #bloc_recherche
@@ -579,7 +590,7 @@ footer
 
 .liste_footer h2
 {
-	font-size: 1.4em;
+	font-size: 1.15em;
 }
 .liste_footer ul
 {
@@ -612,7 +623,7 @@ footer
 	.zone_activites
 	{
 		width: 650px;
-		height: 500px;
+		height: 450px;
 	}
 	.zone_activites .bloc_activites
 	{
@@ -636,22 +647,22 @@ footer
 
 	.zone_activites:nth-child(1) .bloc_activites:nth-child(2)
 	{
-		height: 50%;
+		height: 55%;
 	}
 
 	.zone_activites:nth-child(1) .bloc_activites:nth-child(3)
 	{
-		height: 40%;
+		height: 35%;
 	}
 
 	.zone_activites:nth-child(2) .bloc_activites:nth-child(2)
 	{
-		height: 45%;
+		height: 40%;
 	}
 
 	.zone_activites:nth-child(2) .bloc_activites:nth-child(3)
 	{
-		height: 45%;
+		height: 50%;
 	}
 	.bloc_activites .bloc_images
 	{
@@ -1195,12 +1206,6 @@ footer
 		position: absolute;
 		right: 0em;
 		top: 1.5em;
-	}
-
-	nav li:nth-child(3) a
-	{
-		font-weight: bold;
-		color: #0065FC;
 	}
 
 	nav ul
